@@ -1,0 +1,50 @@
+nav{
+    display: flex;
+    
+    justify-content: space-between;    
+}
+
+.menu, .user{
+padding: 50px;
+}
+
+.breaf{
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;    
+    align-items: center;
+}
+
+.graphs{
+    display: flex;
+justify-content: space-between
+}
+.wearable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-cards{
+    display: flex;
+    div{
+        width:100%;
+        text-align: center;
+    }
+}
+.tbl-header{
+    font-weight: bold;
+}
+.txt-call{
+    font-size: 100px;
+}
+.txt-call2{
+    font-size: 50px;
+}
+button{
+    background-color: transparent;    
+}
+
+div{
+    border: 1px solid black;
+}
