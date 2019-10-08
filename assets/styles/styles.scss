@@ -6,23 +6,94 @@ nav{
 
 .menu, .user{
 padding: 50px;
+display: flex;
+align-items: center;
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: large;
+        margin: 30px;
+    }
+    button{
+        border: 2px solid orange;
+        background-color: transparent;
+        border-radius: 30px;
+        height: 40px;
+        width: 100px;
+        color: white;
+    }
 }
-
+.logo{
+    background-image: url("../images/logo.png");
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+}
+.hero{
+    background-image: url("../images/bgBrief.jpg");
+    background-size: contain;
+}
 .breaf{
     display: flex;
     justify-content: center;
     flex-flow: column nowrap;    
     align-items: center;
+    padding-bottom: 100px;
+    color: white;
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: x-large;
+        margin-top: 50px;
+    }
 }
-
+.action{
+    color:orange;    
+}
+.-fluid{
+    background-color: black;
+    color: white;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.resume{
+    color: white;
+    background-color: black;
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
 .graphs{
     display: flex;
-justify-content: space-between
+justify-content: space-between;
+height: 70vh;
 }
 .wearable{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url("../images/device.png");
+    background-size: contain;
+    height: 150vh;
+}
+
+.grap-image{
+    background-image: url("../images/band4.jpg");
+    background-size: contain;
+    img{
+        height: 100%;
+        width: 100%;
+    }
+    width: 50vw;
+}
+.resume{
+    width: 50vw;
 }
 
 .container-cards{
@@ -41,10 +112,12 @@ justify-content: space-between
 .txt-call2{
     font-size: 50px;
 }
-button{
-    background-color: transparent;    
+.call-action{
+    background-color: orange;
+    color: white;
+    width: 30vw;
+    height: 10vh;    
+    border: 0;
+    border-radius: 50px;
 }
 
-div{
-    border: 1px solid black;
-}
